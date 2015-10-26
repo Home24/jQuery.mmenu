@@ -212,7 +212,7 @@
 			var $pnls = this.$menu.children( '.' + _c.panel ),
 				$frst = $pnls.first();
 
-			this.$menu.children( '.' + _c.panel )
+			this.$menu.find( '.' + _c.panel )
 				.not( $frst )
 				.removeClass( _c.subopened )
 				.removeClass( _c.opened )
