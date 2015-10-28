@@ -209,10 +209,10 @@
 				.removeClass( _c.opened );
 
 			//	Horizontal
-			var $pnls = this.$menu.children( '.' + _c.panel ),
+			var $pnls = this.$pnls.children( '.' + _c.panel ),
 				$frst = $pnls.first();
 
-			this.$menu.find( '.' + _c.panel )
+			$pnls.children( '.' + _c.panel )
 				.not( $frst )
 				.removeClass( _c.subopened )
 				.removeClass( _c.opened )
