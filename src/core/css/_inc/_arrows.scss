@@ -1,0 +1,16 @@
+// Arrows
+.mm-prev:before,
+.mm-next:after,
+.mm-arrow:after
+{
+    @include mm_arrow;
+}
+.mm-prev:before
+{
+    @include mm_arrow_prev;
+}
+.mm-next:after,
+.mm-arrow:after
+{
+    @include mm_arrow_next;
+}
